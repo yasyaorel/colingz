@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'roboto';
   src: url("../fonts/roboto/roboto-black.eot");
-  src: url("../fonts/roboto/roboto-black.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-black.woff2") format("woff2"), url("../fonts/roboto-black.woff") format("woff"), url("../fonts/roboto-black.ttf") format("truetype");
+  src: url("../fonts/roboto/roboto-black.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/roboto-black.woff2") format("woff2"), url("../fonts/roboto-black.woff") format("woff"), url("../fonts/roboto-black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal; }
 
 @font-face {
   font-family: 'roboto';
   src: url("../fonts/roboto/roboto-blackitalic.eot");
-  src: url("../fonts/roboto/roboto-blackitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-blackitalic.woff2") format("woff2"), url("../fonts/roboto-blackitalic.woff") format("woff"), url("../fonts/roboto-blackitalic.ttf") format("truetype");
+  src: url("../fonts/roboto/roboto-blackitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/roboto-blackitalic.woff2") format("woff2"), url("../fonts/roboto-blackitalic.woff") format("woff"), url("../fonts/roboto-blackitalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic; }
 
