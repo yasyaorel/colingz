@@ -34,9 +34,35 @@ ul {
         }
     }
 }
+.slick-prev {
+    &:before {
+        content: "\f177";
+        font-family: fontawesome;
+    }
+}
+.slick-next {
+    &:before {
+        content: "\f178";
+        font-family: fontawesome;
+    }
+}
 
-.slick-arrow {
-    background: red;
+.slick-arrow-prev,
+.slick-arrow-next {
+    // background: red;
+    z-index: 5;
+    top: 80%;
+    &:hover{
+        background-color: @yellow_color;
+    }
+}
+
+.slick-arrow-next {
+    right: 10vw;
+}
+
+.slick-arrow-prev {
+    left: 10vw;
 }
 
 .ma-cover {

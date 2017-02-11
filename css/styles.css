@@ -22,8 +22,28 @@ ul {
   height: inherit;
   width: inherit;
 }
-.slick-arrow {
-  background: red;
+.slick-prev:before {
+  content: "\f177";
+  font-family: fontawesome;
+}
+.slick-next:before {
+  content: "\f178";
+  font-family: fontawesome;
+}
+.slick-arrow-prev,
+.slick-arrow-next {
+  z-index: 5;
+  top: 80%;
+}
+.slick-arrow-prev:hover,
+.slick-arrow-next:hover {
+  background-color: #ffd740;
+}
+.slick-arrow-next {
+  right: 10vw;
+}
+.slick-arrow-prev {
+  left: 10vw;
 }
 .ma-cover {
   position: absolute;
