@@ -16,3 +16,11 @@ $(document).ready(function() {
     });
 
 });
+
+//Form
+/*Отправка данных формы по нажатию кнопки Enter: */
+function submit_handler(form) {
+ alert(form.email.value);
+ return false;
+
+}
