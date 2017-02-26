@@ -6,9 +6,10 @@ $(document).ready(function() {
     $("#slider").slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 3000,
         infinite: true,
+        fade: true,
         cssEase: 'linear',
         arrows: true,
         prevArrow: '<button type="button" class="slick-prev slick-arrow-prev">Previous</button>',
